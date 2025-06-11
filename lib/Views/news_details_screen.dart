@@ -119,7 +119,6 @@ class _NewsDetailsScreenState extends State<NewsDetailsScreen> {
               ]
             ),
           ),
-
         ],
       ),
     );

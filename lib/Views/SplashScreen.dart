@@ -22,7 +22,7 @@ class Splashscreen extends StatelessWidget {
           children: [
             if (Responsive.isMobile(context))
               Image.asset(
-                height: height *0.55,
+                height: height *0.98,
                 "assets/images/splash_pic.jpg",
                 fit: BoxFit.cover,
               )
@@ -44,14 +44,14 @@ class Splashscreen extends StatelessWidget {
             SizedBox(
               height: height*0.03,
             ),
-            Text("TOP HEADLINES",style: GoogleFonts.anton(letterSpacing: .6,color: Colors.black,
+            Text("TOP HEADLIN",style: GoogleFonts.anton(letterSpacing: .6,color: Colors.black,
               fontSize: height*0.029,
             ),),
             SizedBox(
               height: height*0.03,
             ),
             SpinKitChasingDots(
-              color: Colors.blue.shade800,
+              color: Colors.red.shade800,
               size: 45,
             )
           ],
